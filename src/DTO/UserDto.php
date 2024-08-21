@@ -94,7 +94,7 @@ class UserDto implements UserDtoInterface
         ?bool $isBot = null,
         ?bool $isAdmin = null,
         ?bool $isGlobalModerator = null,
-        array $relatedLinks = []
+        array $relatedLinks = [],
     ): self {
         $dto = new UserDto();
         $dto->id = $id;
