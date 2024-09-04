@@ -49,6 +49,8 @@ class UserDto implements UserDtoInterface
     public ?string $totpSecret = null;
     public ?string $serverSoftware = null;
     public ?string $serverSoftwareVersion = null;
+
+    /** @var RelatedLinkDTO[] */
     public array $relatedLinks = [];
 
     #[Assert\Callback]
